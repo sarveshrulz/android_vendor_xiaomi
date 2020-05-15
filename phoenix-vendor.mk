@@ -188,6 +188,86 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/product/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/xiaomi/phoenix/proprietary/product/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.factory.xml
 
+# ANXCamera
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/phoenix/proprietary/etc/ANXCamera/cheatcodes/feature_phoenix:$(TARGET_COPY_OUT_SYSTEM)/etc/ANXCamera/cheatcodes/feature_phoenix \
+    vendor/xiaomi/phoenix/proprietary/etc/ANXCamera/cheatcodes/feature_phoenixin:$(TARGET_COPY_OUT_SYSTEM)/etc/ANXCamera/cheatcodes/feature_phoenixin \
+    vendor/xiaomi/phoenix/proprietary/etc/ANXCamera/fonts/MFYueYuan-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/ANXCamera/fonts/MFYueYuan-Regular.ttf \
+    vendor/xiaomi/phoenix/proprietary/etc/ANXCamera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf:$(TARGET_COPY_OUT_SYSTEM)/etc/ANXCamera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf \
+    vendor/xiaomi/phoenix/proprietary/etc/default-permissions/anxcamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/anxcamera-permissions.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/device_features/phoenix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/phoenix.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/device_features/phoenixin.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/phoenixin.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.front.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/permissions/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.full.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/permissions/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.raw.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/permissions/privapp-permissions-anxcamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-anxcamera.xml \
+    vendor/xiaomi/phoenix/proprietary/etc/sysconfig/anxcamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/anxcamera-hiddenapi-package-whitelist.xml \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libarcsoft_single_chart_calibration.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcamera2ndk.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcamera_client.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcamera_metadata.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcom.xiaomi.camera.algojni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcom.xiaomi.camera.mianodejni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_blurbuster.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_blurbuster.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_chromaflash.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_chromaflash.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_dualcamera.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_dualcamera.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_filtergenerator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_filtergenerator.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_hazebuster.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_hazebuster.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_load_serinum.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_load_serinum.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_optizoom.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_optizoom.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_resource_drm.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_resource_drm.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_seestraight.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_seestraight.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_sharpshooter.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_sharpshooter.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_stillmore.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_stillmore.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_trueportrait.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_trueportrait.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_truescanner_v2.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libjni_ubifocus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libjni_ubifocus.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libmiuinative.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libmiuinative.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libmorpho_memory_allocator.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libmorpho_sensor_fusion.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libsubtitle_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libsubtitle_jni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libtt_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libtt_jni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libvideoutils.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libvideoutils.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libArcsoft_Avatar_Jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libArcsoft_Avatar_Jni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libAvatarEngine.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libAvatarEngine.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libCameraEffectJNI.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libarc_layer_sgl.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libarc_layer_sgl.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libarcsoft_deflicker.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libarcsoft_deflicker.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libarcsoft_single_chart_calibration.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libarcsoft_wideselfie.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera2ndk.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_960_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_960_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_arcsoft_beautyshot.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_arcsoft_handgesture.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_beauty_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_beauty_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_client.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_handgesture_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_metadata.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcamera_wideselfie_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcamera_wideselfie_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcom.xiaomi.camera.algojni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libcom.xiaomi.camera.mianodejni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libdeflicker_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libdeflicker_jni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libhandengine.arcsoft.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libjni_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libjni_arcsoft_beautyshot.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libjni_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libjni_wideselfie.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libmiuinative.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libmiuinative.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libmorpho_panorama_gp3.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libmorpho_sensor_fusion.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libsubtitle_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libsubtitle_jni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libtt_effect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libtt_effect.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libtt_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libtt_jni.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libttffmpeg.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libttffmpeg.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libttvebase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libttvebase.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libttvideoeditor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libttvideoeditor.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libttvideorecorder.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libttvideorecorder.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libttyuv.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libttyuv.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libvideo_extra_color_converter.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libvideo_extra_color_converter.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libvideo_extra_interpolator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libvideo_extra_interpolator.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libvvc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libvvc++_shared.so \
+    vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libvvmediaeditor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libvvmediaeditor.so
+
 PRODUCT_PACKAGES += \
     libantradio \
     libsdm-disp-apis.qti \
