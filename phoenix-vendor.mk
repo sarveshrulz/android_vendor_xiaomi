@@ -203,6 +203,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/etc/permissions/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.raw.xml \
     vendor/xiaomi/phoenix/proprietary/etc/permissions/privapp-permissions-anxcamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-anxcamera.xml \
     vendor/xiaomi/phoenix/proprietary/etc/sysconfig/anxcamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/anxcamera-hiddenapi-package-whitelist.xml \
+    vendor/xiaomi/phoenix/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
+    vendor/xiaomi/phoenix/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcameraservice.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libarcsoft_single_chart_calibration.so \
     vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcamera2ndk.so \
     vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm/libcamera_client.so \
