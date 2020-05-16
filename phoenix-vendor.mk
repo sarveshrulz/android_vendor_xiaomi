@@ -273,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/priv-app/ANXCamera/lib/arm64/libvvmediaeditor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ANXCamera/lib/arm64/libvvmediaeditor.so
 
 PRODUCT_PACKAGES += \
+    ANXCamera \
     libantradio \
     libsdm-disp-apis.qti \
     com.quicinc.cne.api@1.0 \
